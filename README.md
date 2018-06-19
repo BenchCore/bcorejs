@@ -108,7 +108,7 @@ Returning:
 
 ### Generating an address
 
-To generate a unique Ark address from a given public key:
+To generate a unique BEX address from a given public key:
 
 ```js
 var address = bench.crypto.getAddress("5d036a858ce89f844491762eb89e2bfbd50a4a0a0da658e4b2628b25b117ae09");
@@ -136,7 +136,7 @@ Returning:
   type: 0, // Transaction type. 0 = Normal transaction.
   amount: 100000000000, // The amount to send expressed as an integer value.
   asset: {}, // Transaction asset, dependent on tx type.
-  fee: 100000000, // 0.1 ARK expressed as an integer value.
+  fee: 100000000, // 0.1 BEX expressed as an integer value.
   id: "500224999259823996", // Transaction ID.
   recipientId: "BPznHFjiWBVXgW51ojD1wKBhucSryidzgz", // Recipient ID.
   senderPublicKey: "03c60519bf6a704949b80e25a5e1a68fddd008ae23ea5728ec8f36c0bb003357a3", // Sender's public key.
