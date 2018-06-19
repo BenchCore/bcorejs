@@ -1,8 +1,8 @@
 {
   "name": "bcorejs",
   "private": false,
-  "version": "0.3.8",
-  "description": "BenchCore Javascript Library For Sending BEX and other BenchCore Root and SideChain Asset-Based Transactions",
+  "version": "0.3.9",
+  "description": "BenchCore's Javascript Library For Sending BEX and other BenchCore Root and SideChain Asset-Based Transactions",
   "main": "index.js",
   "engines": {
     "node": ">=4"
